@@ -33,9 +33,9 @@ public class NaturalNumber3 extends NaturalNumberSecondary {
      */
     private void createNewRep() {
 
+        // testing
         // TODO - fill in body
-
-    }
+        }
 
     /*
      * Constructors -----------------------------------------------------------
