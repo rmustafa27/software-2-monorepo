@@ -1,10 +1,10 @@
-# Project 2 Checklist
+# Project 3 Checklist
 
-Project 2 is NaturalNumber on String. The following information may be
+Project 3 is Map with Hashing. The following information may be
 helpful in getting started:
 
 - Estimated time to complete the project (based on 0 reviews): ???
-- Link to the project description: [Project 02][project]
+- Link to the project description: [Project 03][project]
 
 When your team is finished, check this list to ensure you have
 completed all the tasks for this assignment.
@@ -24,24 +24,31 @@ completed all the tasks for this assignment.
 
 - [ ] We have followed the project instructions
   - [ ] We have setup the Eclipse project according to the [project description][project]
-  - [ ] We have completed the private method `createNewRep()`
-  - [ ] We have implemented the four NaturalNumber constructors
+  - [ ] We have implemented all of the private methods
+    - [ ] We have completed `createNewRep()`
+    - [ ] We have completed `mod()`
+  - [ ] We have implemented the two Map constructors
   - [ ] We have implemented all of the kernel methods:
-    - [ ]  We have completed `multiplyBy10()`
-    - [ ]  We have completed `divideBy10()`
-    - [ ]  We have completed `isZero()`
+    - [ ] We have completed `add()`
+    - [ ] We have completed `remove()`
+    - [ ] We have completed `removeAny()`
+    - [ ] We have completed `value()`
+    - [ ] We have completed `hasKey()`
+    - [ ] We have completed `size()`
   - [ ] We have adhered to the representation invariant listed in the `@convention` tag in our methods
         (i.e., our methods do not modify the representation in a way that violates the convention)
   - [ ] We have adhered to the abstraction function listed in the `@correspondence` tag in our methods
         (i.e., our methods do not assume an interpretation of the representation that differs from the correspondence)
 - [ ] We have tested our project code (**note**: tests may fail if not all kernel methods are implemented)
-  - [ ] We have completed the bodies of the four `constructorTest()` methods
-  - [ ] We have completed the bodies of the four `constructorRef()` methods
-  - [ ] We have developed a systematic test plan for the NaturalNumberKernel implementation (**note**: consider a "0, 1, many" approach)
-    - [ ] We have tested `multiplyBy10()`
-    - [ ] We have tested `divideBy10()`
-    - [ ] We have tested `isZero()`
-    - [ ] We have tested the four constructors
+  - [ ] We have developed a systematic test plan for the Map4 implementation (**note**: consider a "0, 1, many" approach)
+    - [ ] We have tested `add()`
+    - [ ] We have tested `remove()`
+    - [ ] We have tested `removeAny()`, taking care to not test implementation details
+    - [ ] We have tested `value()`
+    - [ ] We have tested `hasKey()`
+    - [ ] We have tested `size()`
+    - [ ] We have tested the default constructor
+    - [ ] We have tested the integer constructor by creating additional Map4Test# files
 - [ ] We have considered best practices
   - [ ] We have added our names in separate `@author` tags
   - [ ] We have addressed all spotbugs and checkstyle warnings
@@ -62,6 +69,6 @@ completed all the tasks for this assignment.
 
 
 [feedback-form]: https://forms.gle/qJ1gEM5N1r6X7Poy5
-[project]: https://cse22x1.engineering.osu.edu/2231/web-sw2/assignments/projects/natural-number-on-string/natural-number.html
+[project]: https://cse22x1.engineering.osu.edu/2231/web-sw2/assignments/projects/map-with-hashing/map-with-hashing.html
 [queue-on-sequence]: https://cse22x1.engineering.osu.edu/2231/web-sw2/extras/instructions/version-control/version-control.html
 [5-tricks-for-testing]: https://therenegadecoder.com/code/beginner-tricks-for-writing-your-own-unit-tests/
